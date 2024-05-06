@@ -3,6 +3,9 @@
 
 This package contains launch files and configuration files for the Magni robot.
 
+# Installation
+https://learn.ubiquityrobotics.com/simulation
+
 ## Launch files
 
 ### magni_demos fiducial_follow.launch
@@ -41,16 +44,6 @@ Runs everything needed for teleop, including Robot Commander based teleop (no na
 Internal launch file for making the URDF load and robot_state_publisher work.
 
 You should not have to run this launch file directly.
-
-## Deprecated
-
-### magni_demos teleop.launch
-
-Deprecated, now aliased to magni_bringup base.launch
-
-### magni_demos joystick.launch
-
-Deprecated, now aliased to magni_bringup base.launch
 
 ## Software that enables core hardware functionality on Magni:
 
