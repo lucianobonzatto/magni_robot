@@ -90,20 +90,20 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>.12 .12 1e-5</size>
+              <size>.30 .30 1e-5</size>
             </box>
           </geometry>
         </collision>
         <geometry>
           <box>
-            <size>0.12 0.12 1e-5</size>
+            <size>0.30 0.30 1e-5</size>
           </box>
         </geometry>
         <material>
           <script>
             <uri>model://magni_base/materials/scripts</uri>
             <uri>model://magni_base/materials/textures</uri>
-            <name>Marker0/Marker</name>
+            <name>Marker1/Marker</name>
           </script>
         </material>
       </visual>
@@ -112,7 +112,7 @@
     <joint name='fixed_joint' type='fixed'>
       <parent>link_0</parent> <!-- O link "world" é geralmente usado como referência fixa -->
       <child>marker_pad</child> <!-- O link que você deseja fixar -->
-      <pose>0 0 0 0 0 0</pose> <!-- A pose relativa entre os links (nesse caso, mantendo a mesma
+      <pose>10 10 10 10 10 10</pose> <!-- A pose relativa entre os links (nesse caso, mantendo a mesma
       pose) -->
     </joint>
 

@@ -6,7 +6,7 @@
     </asset>
     <library_images>
         <image id="texture0" name="texture0">
-            <init_from>aruco_0.png</init_from>
+            <init_from>Test.png</init_from>
         </image>
     </library_images>
     <library_effects>
@@ -15680,7 +15680,7 @@
     <library_visual_scenes>
         <visual_scene id="__SCENE_magni" name="magni">
             <node id="__NODE_Box 5" name="Box 5">
-                <matrix>1.2 0 0 0 0 1.2 0 0 0 0 0.1 262 0 0 0 1</matrix>
+                <matrix>8.7 0 0 0 0 7.2 0 0 0 0 0.1 262 0 0 0 1</matrix>
                 <instance_geometry url="#__GEOM_">
                     <bind_material>
                         <technique_common>
@@ -15747,7 +15747,7 @@
                 </instance_geometry>
             </node>
             <node id="__NODE_Box" name="Box">
-                <matrix>5.5 0 0 0 0 3.4999999999999996 0 0 0 0 0.1 260 0 0 0 1</matrix>
+                <matrix>8.7 0 0 0 0 7.2 0 0 0 0 0.1 260 0 0 0 1</matrix>
                 <instance_geometry url="#__GEOM_-5">
                     <bind_material>
                         <technique_common>
