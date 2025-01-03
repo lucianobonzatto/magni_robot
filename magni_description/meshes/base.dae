@@ -43,28 +43,17 @@
         </effect>
         <effect id="material0-fx">
             <profile_COMMON>
-                <newparam sid="texture0-surface">
-                    <surface type="2D">
-                        <init_from>texture0</init_from>
-                        <format>R8G8B8</format>
-                    </surface>
-                </newparam>
-                <newparam sid="texture0-sampler">
-                    <sampler2D>
-                        <source>texture0-surface</source>
-                        <minfilter>LINEAR</minfilter>
-                        <magfilter>LINEAR</magfilter>
-                    </sampler2D>
-                </newparam>
                 <technique sid="common">
                     <blinn>
                         <diffuse>
-                            <texture texture="texture0-sampler" texcoord="UVSET0" />
+                            <texture texture="texture0" texcoord="UVSET0" />
                         </diffuse>
                     </blinn>
                 </technique>
             </profile_COMMON>
         </effect>
+
+
     </library_effects>
     <library_materials>
         <material id="ID8" name="Mtl">
@@ -15680,7 +15669,7 @@
     <library_visual_scenes>
         <visual_scene id="__SCENE_magni" name="magni">
             <node id="__NODE_Box 5" name="Box 5">
-                <matrix>8.7 0 0 0 0 7.2 0 0 0 0 0.1 262 0 0 0 1</matrix>
+                <matrix>8.7 0 0 0 0 7.2 0 0 0 0 0.1 270 0 0 0 1</matrix>
                 <instance_geometry url="#__GEOM_">
                     <bind_material>
                         <technique_common>
